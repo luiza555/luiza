@@ -1,11 +1,33 @@
-body {
-    background: #CCCCCC
+/* css da página inicial */
+.banner {
+    width:100%;
 }
 
-p {
+.titulo-principal {
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-em strong {
-    color: #FF0000;
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
